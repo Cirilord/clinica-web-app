@@ -1,3 +1,18 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+    "extends": [
+        "next/core-web-vitals",
+        "next/typescript"
+    ],
+    "rules": {
+        "curly": "error",
+        "eqeqeq": "error",
+        "no-console": "warn",
+        "no-debugger": "warn",
+        "prefer-const": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": "error"
+    }
 }
